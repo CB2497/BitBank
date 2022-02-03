@@ -6,8 +6,9 @@
 	--menu-hover:#fff;
 	--color-subtitulo:#888;
 	--color-negro2:#222;
-	--color-bg-gris: #f2f4ec:
+	--color-bg-gris:#F2F4EC;
 	--tamanio-img-features: 60px;
+	--color-bg-footer: #1A2130;
 }
 body{
 	font-family: 'Roboto', sans-serif;
@@ -349,7 +350,16 @@ font-weight: 700
 
 
 
+form{
+	background-color: var(--color-bg-gris);
+}
 
+footer{
+	background-color: #1a2130;
+	padding: 20px 0;
+	text-align: center;
+	color: #aeaeae;
+}
 
 
 
